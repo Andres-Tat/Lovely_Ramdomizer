@@ -1,11 +1,14 @@
-const firstName = prompt("Напишите первое имя"),
-    secondName = prompt("Напишите второе имя")
+ 'use strict'
 
-const randomNumber = (Math.floor(Math.random() * 100))
+ let hasDriversLicense = false
+ const passTest = true
 
+ if (passTest) {
+    hasDriversLicense = true
+ }
 
-
-alert(`Результат совместимости имен ${firstName} и ${secondName} равен ${randomNumber}`)
-
+ if (hasDriversLicense) {
+    console.log('Я имею право водить машину!')
+ }
 
 
