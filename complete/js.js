@@ -1,14 +1,13 @@
  'use strict'
 
- let hasDriversLicense = false
- const passTest = true
+function calc(a, b, c) {
+    
+    return a + b - c
+}
 
- if (passTest) {
-    hasDriversLicense = true
- }
+const result = calc(10, 4, 7)
 
- if (hasDriversLicense) {
-    console.log('Я имею право водить машину!')
- }
+console.log(result)
+
 
 
