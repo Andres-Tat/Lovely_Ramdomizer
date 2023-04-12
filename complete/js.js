@@ -1,12 +1,11 @@
  'use strict'
 // Function Declaration
+
+
 function calc(apple, orange, pineapple) {
-    
     return apple + orange + pineapple
 }
-
-const result = calc('false', 5, 'false')
-
+const result = calc(5, 5, 5)
 console.log(result)
 
 
