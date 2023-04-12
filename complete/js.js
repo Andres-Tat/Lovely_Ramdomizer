@@ -1,13 +1,20 @@
  'use strict'
-
-function calc(a, b, c) {
+// Function Declaration
+function calc(apple, orange, pineapple) {
     
-    return a + b - c
+    return apple + orange + pineapple
 }
 
-const result = calc(10, 4, 7)
+const result = calc('false', 5, 'false')
 
 console.log(result)
 
 
 
+// Function Expression
+
+let result2 = function(a, b, c) {
+    return a + b - c
+}
+
+console.log(result2(10,4,2))
