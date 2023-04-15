@@ -1,19 +1,27 @@
- 'use strict'
-// Function Declaration
+'use strict'
 
+// function myFunction() {
+//     function myFunction2() {
+//         a = 3
+//     }
+//     myFunction2()
+// }
+// myFunction()
 
-function calc(apple, orange, pineapple) {
-    return apple + orange + pineapple
+// console.log(a)  
+
+let a
+let b
+
+function myFn() {
+    let b
+    a = true
+    b = 5
+    console.log(b)
 }
-const result = calc(5, 5, 5)
-console.log(result)
 
+myFn()
 
+console.log(a)
+console.log(b)
 
-// Function Expression
-
-let result2 = function(a, b, c) {
-    return a + b - c
-}
-
-console.log(result2(10,4,2))
