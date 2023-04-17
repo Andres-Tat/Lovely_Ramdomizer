@@ -1,16 +1,16 @@
 'use strict'
 
-let a
+// let a
 
-function myFunction() {
-    function myFunction2() {
-        a = 3
-    }
-    myFunction2()
-}
-myFunction()
+// function myFunction() {
+//     function myFunction2() {
+//         a = 3
+//     }
+//     myFunction2()
+// }
+// myFunction()
 
-console.log(a)  
+// console.log(a)  
 
 
 // let a
@@ -27,4 +27,19 @@ console.log(a)
 
 // console.log(a)
 // console.log(b)
+
+
+function myFn(a = "Andrey", b = "date, when i born") {  // параметры нашей функции
+    console.log(a + b)    // выводим результат наших параметров
+}
+
+myFn("my Birthday ", "1995.15.05")        // Здесь мы прописали аргументы для параметров нашей функции
+
+
+
+
+
+
+
+
 
